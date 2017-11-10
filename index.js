@@ -31,6 +31,7 @@ function currentLine(katzDeli){
     for (i = 0; i < arrayLength; i++){
       sentenceParts.push(` ${i+1}. ${katzDeli[i]}`)
     }
+
     sentence = `The line is currently:${sentenceParts.join()}`
     return sentence
   }
